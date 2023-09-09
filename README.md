@@ -33,7 +33,7 @@
 
 
 
-<img align="right" alt="coding" width="600" src="https://dharageshtech.files.wordpress.com/2023/09/1614227165008.jpg?strip=info&w=1800">
+<img align="center" alt="coding" width="900" src="https://dharageshtech.files.wordpress.com/2023/09/1614227165008.jpg?strip=info&w=1800">
 
 ## Key Features
 
