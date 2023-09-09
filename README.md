@@ -33,7 +33,7 @@
 
 
 
-<img align="right" alt="coding" width="300" src="https://dharageshtech.files.wordpress.com/2023/09/vid_20210117_155151.gif">
+<img align="right" alt="coding" width="600" src="https://dharageshtech.files.wordpress.com/2023/09/1614227165008.jpg?strip=info&w=1800">
 
 ## Key Features
 
@@ -66,6 +66,8 @@
   With its targeted communication capabilities, SALCS is a valuable asset in military settings. It allows for discreet and precise information dissemination in tactical operations.
 
 ## Technologies Used
+
+<img align="right" alt="coding" width="600" src="https://dharageshtech.files.wordpress.com/2023/09/img_20210117_153547.jpg?strip=info&w=1800">
 
 * **Blue Pill (STM32F103C8T6):**
 
