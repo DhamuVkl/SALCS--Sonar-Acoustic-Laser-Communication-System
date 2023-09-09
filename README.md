@@ -33,74 +33,75 @@
 
 
 
-![Screen Shot](https://dharageshtech.files.wordpress.com/2023/09/vid_20210117_155151.gif)
+<img align="right" alt="coding" width="300" src="https://dharageshtech.files.wordpress.com/2023/09/vid_20210117_155151.gif">
+
 ## Key Features
 
 * **Directional Audio Transmission:**
 
-SALCS enables the transmission of human-audible audio waves in a directional beam, akin to a laser/audio gun. This unique feature allows for pinpoint communication in crowded environments.
+  SALCS enables the transmission of human-audible audio waves in a directional beam, akin to a laser/audio gun. This unique feature allows for pinpoint communication in crowded environments.
 
 * **Audio Spotlight Capability:**
 
-The system provides the ability to create an "audio spotlight," allowing information to be conveyed specifically to a designated individual within a group, enhancing privacy and focus.
+  The system provides the ability to create an "audio spotlight," allowing information to be conveyed specifically to a designated individual within a group, enhancing privacy and focus.
 
 * **Real-Time Target Tracking:**
 
-SALCS incorporates a sophisticated real-time tracking system. Utilizing a high-definition camera and motion detection technology, it precisely targets and follows a designated person or object.
+  SALCS incorporates a sophisticated real-time tracking system. Utilizing a high-definition camera and motion detection technology, it precisely targets and follows a designated person or object.
 
 * **Versatile Applications:**
 
-SALCS finds applications in a range of scenarios, from emergency communication in helicopters to conveying information in retail environments and cultural institutions.
+  SALCS finds applications in a range of scenarios, from emergency communication in helicopters to conveying information in retail environments and cultural institutions.
 
 * **Emergency Message Transmission:**
 
-The system is equipped to transmit critical messages, making it an invaluable tool in emergency situations, particularly for rescue operations or disaster relief efforts.
+  The system is equipped to transmit critical messages, making it an invaluable tool in emergency situations, particularly for rescue operations or disaster relief efforts.
 
 * **Enhanced Visitor Experience:**
 
-In museums and art exhibitions, SALCS offers a unique way to provide detailed information about exhibits to interested visitors, enhancing their overall experience.
+  In museums and art exhibitions, SALCS offers a unique way to provide detailed information about exhibits to interested visitors, enhancing their overall experience.
 
 * **Military-Grade Communication:**
 
-With its targeted communication capabilities, SALCS is a valuable asset in military settings. It allows for discreet and precise information dissemination in tactical operations.
+  With its targeted communication capabilities, SALCS is a valuable asset in military settings. It allows for discreet and precise information dissemination in tactical operations.
 
 ## Technologies Used
 
 * **Blue Pill (STM32F103C8T6):**
 
-Role: The Blue Pill microcontroller serves as the brain of the system. It is responsible for modulating incoming audio signals into ultrasonic carrier signals through Pulse Width Modulation (PWM) modulation.  
+  **Role:** The Blue Pill microcontroller serves as the brain of the system. It is responsible for modulating incoming audio signals into ultrasonic carrier signals through Pulse Width Modulation (PWM) modulation.  
 
-Technical Aspect: The STM32F103C8T6 is a 32-bit ARM Cortex-M3 microcontroller. Its advanced capabilities include a high processing speed and a rich set of peripherals that make it ideal for complex tasks like audio modulation.
+  **Technical Aspect:** The STM32F103C8T6 is a 32-bit ARM Cortex-M3 microcontroller. Its advanced capabilities include a high processing speed and a rich set of peripherals that make it ideal for complex tasks like audio modulation.
 
 * **Raspberry Pi 3 B+:**
 
-Role: The Raspberry Pi acts as the central control unit for motion detection and tracking. It runs OpenCV, providing real-time feedback for precise targeting.  
+  **Role:** The Raspberry Pi acts as the central control unit for motion detection and tracking. It runs OpenCV, providing real-time feedback for precise targeting.  
 
-Technical Aspect: The Raspberry Pi 3 B+ is a versatile single-board computer equipped with a quad-core ARM Cortex-A53 processor, making it capable of handling demanding tasks such as image processing and motion tracking.
+  **Technical Aspect:** The Raspberry Pi 3 B+ is a versatile single-board computer equipped with a quad-core ARM Cortex-A53 processor, making it capable of handling demanding tasks such as image processing and motion tracking.
 
 * **PCA9685 I2C Servo Controller:**
 
-Role: This controller interfaces with the Raspberry Pi to manage the servo motor responsible for directing the 1080p HD camera. It plays a critical role in motion tracking.  
+  **Role:** This controller interfaces with the Raspberry Pi to manage the servo motor responsible for directing the 1080p HD camera. It plays a critical role in motion tracking.  
 
-Technical Aspect: The PCA9685 is a 16-channel, 12-bit PWM driver designed to control servos and LEDs via I2C communication. It provides precise control over servo positions, enabling accurate tracking.
+  **Technical Aspect:** The PCA9685 is a 16-channel, 12-bit PWM driver designed to control servos and LEDs via I2C communication. It provides precise control over servo positions, enabling accurate tracking.
 
 * **1080p HD Camera:**
 
-Role: The camera captures visual data for motion tracking. It provides critical input for the system to identify and follow the designated target in real time.  
+  **Role:** The camera captures visual data for motion tracking. It provides critical input for the system to identify and follow the designated target in real time.  
 
-Technical Aspect: A 1080p HD camera typically features a high-resolution image sensor, capable of capturing detailed visuals even in challenging lighting conditions.
+  **Technical Aspect:** A 1080p HD camera typically features a high-resolution image sensor, capable of capturing detailed visuals even in challenging lighting conditions.
 
 * **H-Bridge Controller:**
 
-Role: The H-Bridge controller is responsible for amplifying the modulated signal before transmission. It ensures a powerful and reliable transmission of audio waves via ultrasonic transducers.  
+  **Role:** The H-Bridge controller is responsible for amplifying the modulated signal before transmission. It ensures a powerful and reliable transmission of audio waves via ultrasonic transducers.  
 
-Technical Aspect: An H-Bridge is an electronic circuit that enables voltage to be applied across a load in either direction. In this context, it amplifies the signal from the Blue Pill microcontroller to an appropriate level for transmission.
+  **Technical Aspect:** An H-Bridge is an electronic circuit that enables voltage to be applied across a load in either direction. In this context, it amplifies the signal from the Blue Pill microcontroller to an appropriate level for transmission.
 
 * **Ultrasonic Transducers:**
 
-Role: These transducers are the hardware responsible for converting electrical signals into ultrasonic sound waves for transmission.  
+  **Role:** These transducers are the hardware responsible for converting electrical signals into ultrasonic sound waves for transmission.  
 
-Technical Aspect: Ultrasonic transducers typically consist of a piezoelectric crystal that vibrates at ultrasonic frequencies when subjected to an electrical signal. This vibration generates sound waves.
+  **Technical Aspect:** Ultrasonic transducers typically consist of a piezoelectric crystal that vibrates at ultrasonic frequencies when subjected to an electrical signal. This vibration generates sound waves.
 
 
 
