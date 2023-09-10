@@ -106,6 +106,7 @@
   **Technical Aspect:** Ultrasonic transducers typically consist of a piezoelectric crystal that vibrates at ultrasonic frequencies when subjected to an electrical signal. This vibration generates sound waves.
 
 
+<img align="right" alt="coding" width="300" src="https://dharageshtech.files.wordpress.com/2023/09/vid_20210117_155151.gif">
 
 
 ## Roadmap
